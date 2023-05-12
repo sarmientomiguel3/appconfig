@@ -1,0 +1,8 @@
+spring.application.name=appdeposit
+server.port=7772
+#Connect Postgres
+spring.datasource.url=jdbc:postgresql://localhost:5014/db_transaction
+spring.datasource.username=postgres
+spring.datasource.password=Aforo2552019
+spring.jpa.hibernate.ddl-auto=create-drop
+spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
